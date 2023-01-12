@@ -34,7 +34,11 @@ export class Dog {
     this.tiredness = 0;
   }
 
-  // returns the distance walked
+  /**
+    @param distance = the distance to walk
+    
+    @return the distance the dog walked
+  */
   walk = (distance: number): number => {
     // TODO: write your logic here
 
