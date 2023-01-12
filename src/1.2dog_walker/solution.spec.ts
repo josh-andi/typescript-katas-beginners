@@ -136,7 +136,7 @@ describe("Dog Walker simulation", () => {
           expect(largeDog.getHappiness()).to.eql("sad")
         })
         it("the dog will be too tired to finish the walk", () => {
-          const largeDog = new Dog(Size.Small)
+          const largeDog = new Dog(Size.Large)
           const distWalked = largeDog.walk(distance);
 
           expect(largeDog.getTiredness()).to.eql(100)
@@ -209,7 +209,7 @@ describe("Dog Walker simulation", () => {
           expect(mediumDog.getHappiness()).to.eql("sad")
         })
         it("the dog will be too tired to finish the walk", () => {
-          const mediumDog = new Dog(Size.Small)
+          const mediumDog = new Dog(Size.Medium)
           const distWalked = mediumDog.walk(distance);
 
           expect(mediumDog.getTiredness()).to.eql(100)
