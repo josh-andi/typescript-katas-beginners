@@ -17,6 +17,21 @@ Walking mechanics:
 
 - If you dont walk your dog at all then it will also become a sad doggo.
 
+
+FAQ:
+
+How far can each dog walk before giving up?:
+
+small => 300
+medium => 600
+large => 900
+
+How long is a 'long' walk?:
+
+small => 100
+medium => 200
+large => 300
+
 To run your test, type this command in your console:
 
 npm test -- --grep "Dog Walker simulation"
@@ -37,7 +52,7 @@ export enum Size {
 export class Dog {
   size: Size;
   private happiness: Happiness;
-  private tiredness: number;
+  private tiredness: number; // a number between 0 and 100
   private tooTiredToWalk: boolean;
 
   constructor(size: Size) {
