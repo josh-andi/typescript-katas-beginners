@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/1.3array_diff/solution.spec.ts"],
+  "sourcesContent": ["import { expect } from 'chai';\n\nimport { arrayDiff } from './solution';\n\ndescribe('Basic tests', () => {\n  it('Basic test should work', () => {\n    expect(arrayDiff([], [4, 5])).to.eql([], 'a was [], b was [4,5]');\n    expect(arrayDiff([3, 4], [3])).to.eql([4], 'a was [3, 4], b was [3]');\n    expect(arrayDiff([1, 8, 2], [])).to.eql([1, 8, 2], 'a was [1, 8, 2], b was []');\n    expect(arrayDiff([1, 2, 3], [1, 2])).to.eql([3], 'a was [1, 2, 3], b was [1, 2]');\n  });\n});"],
+  "mappings": ";AAAA,kBAAuB;AAEvB,sBAA0B;AAE1B,SAAS,eAAe,MAAM;AAC5B,KAAG,0BAA0B,MAAM;AACjC,gCAAO,2BAAU,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC,CAAC,EAAE,GAAG,IAAI,CAAC,GAAG,uBAAuB;AAChE,gCAAO,2BAAU,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC,CAAC,CAAC,EAAE,GAAG,IAAI,CAAC,CAAC,GAAG,yBAAyB;AACpE,gCAAO,2BAAU,CAAC,GAAG,GAAG,CAAC,GAAG,CAAC,CAAC,CAAC,EAAE,GAAG,IAAI,CAAC,GAAG,GAAG,CAAC,GAAG,2BAA2B;AAC9E,gCAAO,2BAAU,CAAC,GAAG,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC,CAAC,EAAE,GAAG,IAAI,CAAC,CAAC,GAAG,+BAA+B;AAAA,EAClF,CAAC;AACH,CAAC;",
+  "names": []
+}

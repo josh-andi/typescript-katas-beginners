@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/1.2dog_walker/solution.ts"],
+  "sourcesContent": ["export enum Size {\n  Small\n}\ntype Happiness = \"happy\"\n\nexport class Dog {\n  size: Size;\n  private happiness: Happiness;\n  private tiredness: number;\n\n  constructor(size: Size) {\n    this.size = size;\n    this.happiness = \"happy\";\n    this.tiredness = 0;\n  }\n\n  walk = function(distance: number) {\n    // TODO: write your logic here\n  }\n\n  getTiredness = () => {\n    return this.tiredness\n  }\n\n  getHappiness = () => {\n    return this.happiness;\n  }\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,IAAK,OAAL,kBAAKA,UAAL;AACL,EAAAA,YAAA;AADU,SAAAA;AAAA,GAAA;AAKL,MAAM,IAAI;AAAA,EACf;AAAA,EACQ;AAAA,EACA;AAAA,EAER,YAAY,MAAY;AACtB,SAAK,OAAO;AACZ,SAAK,YAAY;AACjB,SAAK,YAAY;AAAA,EACnB;AAAA,EAEA,OAAO,SAAS,UAAkB;AAAA,EAElC;AAAA,EAEA,eAAe,MAAM;AACnB,WAAO,KAAK;AAAA,EACd;AAAA,EAEA,eAAe,MAAM;AACnB,WAAO,KAAK;AAAA,EACd;AACF;",
+  "names": ["Size"]
+}

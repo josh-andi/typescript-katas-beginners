@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/1.1hello_world/solution.ts"],
+  "sourcesContent": ["export function helloWorld(): string {\n  // TODO: write your code here\n  return \"\";\n}"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,SAAS,aAAqB;AAEnC,SAAO;AACT;",
+  "names": []
+}

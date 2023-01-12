@@ -1,0 +1,22 @@
+{
+  "name": "for-beginners",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "TS_NODE_PROJECT=\"tsconfig.testing.json\" mocha --require @babel/register src/**/*.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.18.9",
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1"
+  }
+}

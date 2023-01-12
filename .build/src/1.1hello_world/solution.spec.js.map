@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/1.1hello_world/solution.spec.ts"],
+  "sourcesContent": ["import { expect } from 'chai';\n\nimport { helloWorld } from './solution';\n\ndescribe('Hello world', () => {\n  it('should print a greeting message', () => {\n    expect(helloWorld()).to.eql(\"Hello world!!!\")\n  });\n});"],
+  "mappings": ";AAAA,kBAAuB;AAEvB,sBAA2B;AAE3B,SAAS,eAAe,MAAM;AAC5B,KAAG,mCAAmC,MAAM;AAC1C,gCAAO,4BAAW,CAAC,EAAE,GAAG,IAAI,gBAAgB;AAAA,EAC9C,CAAC;AACH,CAAC;",
+  "names": []
+}

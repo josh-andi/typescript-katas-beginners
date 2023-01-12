@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/1.2dog_walker/solution.spec.ts"],
+  "sourcesContent": ["import { expect } from 'chai';\nimport { Dog, Size } from './solution';\n\ndescribe(\"Given you have a small dog\", () => {\n  describe(\"when you take it on a walk\", () => {\n    describe(\"when the walk is long\", () => {\n        it(\"should make the dog tired\", () => {\n          const smallDog = new Dog(Size.Small)\n\n          smallDog.walk(100)\n\n          expect(smallDog.getHappiness()).to.be(\"very happy\")\n          expect(smallDog.getTiredness()).to.eql(100)\n        })\n    })\n  })\n})\n\n\n\n"],
+  "mappings": ";AAAA,kBAAuB;AACvB,sBAA0B;AAE1B,SAAS,8BAA8B,MAAM;AAC3C,WAAS,8BAA8B,MAAM;AAC3C,aAAS,yBAAyB,MAAM;AACpC,SAAG,6BAA6B,MAAM;AACpC,cAAM,WAAW,IAAI,oBAAI,qBAAK,KAAK;AAEnC,iBAAS,KAAK,GAAG;AAEjB,gCAAO,SAAS,aAAa,CAAC,EAAE,GAAG,GAAG,YAAY;AAClD,gCAAO,SAAS,aAAa,CAAC,EAAE,GAAG,IAAI,GAAG;AAAA,MAC5C,CAAC;AAAA,IACL,CAAC;AAAA,EACH,CAAC;AACH,CAAC;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/1.3array_diff/solution.ts"],
+  "sourcesContent": ["export function arrayDiff(a: number[], b: number[]): number[] {\n  return a.filter(x => !b.includes(x));\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,SAAS,UAAU,GAAa,GAAuB;AAC5D,SAAO,EAAE,OAAO,OAAK,CAAC,EAAE,SAAS,CAAC,CAAC;AACrC;",
+  "names": []
+}
