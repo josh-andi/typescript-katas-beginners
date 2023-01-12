@@ -2,7 +2,7 @@ import { expect } from 'chai';
 
 import { arrayDiff } from './solution';
 
-describe('Basic tests', () => {
+describe('Array Diff', () => {
   it('Basic test should work', () => {
     expect(arrayDiff([], [4, 5])).to.eql([], 'a was [], b was [4,5]');
     expect(arrayDiff([3, 4], [3])).to.eql([4], 'a was [3, 4], b was [3]');

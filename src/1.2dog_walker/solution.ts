@@ -4,12 +4,22 @@ Your task here is to program the behaviour of a dog.
 
 Dogs can be in a variety of sizes: small, medium and large.
 
-Small dogs don't need to be walked as far to become tired.
+Because we all love dogs, we wish to keep them happy. To do this we give them a nice walk.
 
-Longer walks makes dogs happy, but if the walk is too long then the dogs happiness will start to decrease and could even become sad!
 
-If you dont walk your dog at all then it will also be a sad doggo.
+Walking mechanics:
 
+- Small dogs don't need to be walked as far to become tired.
+
+- Longer walks makes dogs happy, but if the walk is too long then the dogs happiness will start to decrease and could even become sad!
+
+- Dogs can't walk forever and at some point refuse to continue on walking.
+
+- If you dont walk your dog at all then it will also become a sad doggo.
+
+To run your test, type this command in your console:
+
+npm test -- --grep "Dog Walker simulation"
 
 */
 
@@ -18,7 +28,9 @@ If you dont walk your dog at all then it will also be a sad doggo.
 type Happiness = "happy"
 
 export enum Size {
-  Small
+  Small,
+  Medium,
+  Large
 }
 
 
